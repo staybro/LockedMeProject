@@ -17,7 +17,7 @@ public class LockedMe {
 		{
 			displayMenuOptions();
 			System.out.println("Enter your choice"); 
-			option=Integer.parseInt(obj.nextLine());
+			option=obj.nextInt();
 			switch(option)
 			{
 			case 1:
